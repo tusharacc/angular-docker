@@ -1,0 +1,26 @@
+.container{
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    grid-template-rows: repeat(12,1fr);
+    justify-items: center;
+ 
+}
+.header{
+    font-family: 'Anton', sans-serif;
+    font-size: 4em;
+    grid-column: 1 / -1;
+    padding: 0.2em;
+    background-color: bisque;
+    color: chocolate;
+    text-align: center;
+    border-radius: 0.5em;
+    border: 1px solid brown;
+    width: 98%;
+}
+
+.content{
+    margin-top: 1em;
+    color: chocolate;
+    text-align: center;
+    font-size: 2em;
+}
